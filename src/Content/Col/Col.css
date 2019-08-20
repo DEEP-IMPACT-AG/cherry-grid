@@ -1,5 +1,10 @@
 @import '../css/mixins.css';
 
+:root {
+	--gutter-col-mobile: 10px;
+	--gutter-col-desktop: 10px;
+}
+
 @define-mixin col {
 	position: relative;
 	width: 100%;

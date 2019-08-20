@@ -1,5 +1,10 @@
 @import '../css/mixins.css';
 
+:root {
+	--margin-row-mobile: -10px;
+	--margin-row-desktop: -10px;
+}
+
 @define-mixin row {
 	display: flex;
 	flex-wrap: wrap;
