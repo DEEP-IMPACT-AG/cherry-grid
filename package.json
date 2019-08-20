@@ -1,6 +1,6 @@
 {
 	"name": "cherry-grid",
-	"version": "0.0.6",
+	"version": "0.0.7",
 	"description": "Cherry Grid",
 	"main": "dist/cherry.js",
 	"module": "dist/cherry.module.js",
@@ -25,6 +25,7 @@
 	"scripts": {
 		"build:components": "rollup -c lib/rollup.config.components.js",
 		"build:css": "rollup -c lib/rollup.config.css.js",
+		"build": "npm run build:components && npm run build:css",
 		"watch:components": "rollup -c lib/rollup.config.components.js  -w",
 		"watch:css": "rollup -c lib/rollup.config.css.js -w"
 	},
