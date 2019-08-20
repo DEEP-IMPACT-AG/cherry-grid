@@ -1,11 +1,50 @@
-@import '../css/mixins.css';
-
 :root {
 	--max-width: 1440px;
 	--margin-container-mobile: 20px;
 	--margin-container-desktop: 20px;
 	--margin-container-child-mobile: 10px;
 	--margin-container-child-desktop: 10px;
+}
+
+@define-mixin container {
+	margin: auto;
+	max-width: var(--max-width);
+	padding-right: var(--margin-container-mobile);
+	padding-left: var(--margin-container-mobile);
+
+	@media (--screen-lg) {
+		padding-right: var(--margin-container-desktop);
+		padding-left: var(--margin-container-desktop);
+	}
+
+	@media (--screen-xxxl) {
+		max-width: 1704px;
+	}
+}
+
+@define-mixin containerFluid {
+	width: 100%;
+	max-width: initial;
+	padding-right: var(--margin-container-mobile);
+	padding-left: var(--margin-container-mobile);
+	margin-right: auto;
+	margin-left: auto;
+
+	@media (--screen-lg) {
+		padding-right: var(--margin-container-desktop);
+		padding-left: var(--margin-container-desktop);
+	}
+}
+
+
+@define-mixin containerChild {
+	padding-right: var(--margin-container-child-mobile);
+	padding-left: var(--margin-container-child-mobile);
+
+	@media (--screen-lg) {
+		padding-right: var(--margin-container-child-desktop);
+		padding-left: var(--margin-container-child-desktop);
+	}
 }
 
 .container {
