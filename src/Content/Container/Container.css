@@ -1,5 +1,13 @@
 @import '../css/mixins.css';
 
+:root {
+	--max-width: 1440px;
+	--margin-container-mobile: 20px;
+	--margin-container-desktop: 20px;
+	--margin-container-child-mobile: 10px;
+	--margin-container-child-desktop: 10px;
+}
+
 .container {
 	@mixin container;
 }
