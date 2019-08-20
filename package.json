@@ -1,9 +1,25 @@
 {
 	"name": "cherry-grid",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"description": "Cherry Grid",
 	"main": "dist/cherry.js",
 	"module": "dist/cherry.module.js",
+	"keywords": [
+		"boilerplate",
+		"cherry",
+		"components",
+		"css",
+		"design",
+		"front-end",
+		"node",
+		"postcss",
+		"responsiveness",
+		"sass",
+		"system",
+		"web",
+		"website",
+		"workflow"
+	],
 	"homepage": "https://cherry.design",
 	"repository": "https://github.com/DEEP-IMPACT-AG/cherry-grid",
 	"scripts": {
