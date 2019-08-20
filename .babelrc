@@ -9,7 +9,7 @@
 		["css-modules-transform", {
 			"extensions": [".css"],
 			"generateScopedName": "[hash:base64:5]", 
-			"mode": "local",
+			"mode": "global",
 			"extractCss": "./dist/styles.css",
 			"prepend": [
 				"postcss-mixins",
