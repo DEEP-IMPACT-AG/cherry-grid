@@ -1,0 +1,13 @@
+@import '../css/mixins.css';
+
+.container {
+	@mixin container;
+}
+
+.containerFluid {
+	@mixin containerFluid;
+}
+
+.containerChild {
+	@mixin containerChild;
+}
