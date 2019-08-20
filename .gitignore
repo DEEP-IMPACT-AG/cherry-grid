@@ -1,5 +1,4 @@
 # Distribution Files
-dist/
 build/
 !lib/build/
 

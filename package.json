@@ -1,9 +1,9 @@
 {
 	"name": "cherry-grid",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Cherry Grid",
-	"main": "lib/dist/cherry.js",
-	"module": "lib/dist/cherry.module.js",
+	"main": "dist/cherry.js",
+	"module": "dist/cherry.module.js",
 	"homepage": "https://cherry.design",
 	"repository": "https://github.com/DEEP-IMPACT-AG/cherry-grid",
 	"scripts": {
