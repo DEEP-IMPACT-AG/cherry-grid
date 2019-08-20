@@ -1,3 +1,5 @@
+@import '../css/variables.css';
+
 :root {
 	--margin-row-mobile: -10px;
 	--margin-row-desktop: -10px;

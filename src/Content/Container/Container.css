@@ -1,3 +1,5 @@
+@import '../css/variables.css';
+
 :root {
 	--max-width: 1440px;
 	--margin-container-mobile: 20px;

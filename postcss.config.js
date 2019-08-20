@@ -15,5 +15,8 @@ module.exports = {
 				'custom-media': true,
 			},
 		}),
+		require('cssnano')({
+			preset: 'default',
+		}),
 	],
 };
