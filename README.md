@@ -76,57 +76,109 @@ The `<Row>` component is a direct or non direct child of the <Container> compon
 Col stands for column. The `<Col>` component should always be a direct child of the <Row>. Available properties:
 
 - `id` - string - Columns can have html ID's. 
+
 	Default: not set.
+
 - `className` - string - You can pass a className. 
+
 	Default: not set.
+
 - `children` - any - Container children elements. 
+
 	Default: not set.
+
 - `textAlign` - string - Text align property. 
+
 	Default: not set.
+
 - `children` - any - Container children elements. 
+
 	Default: not set.
+
 - `xs` - number - Define which grid layout should be rendered on xs media query. 
+
 	Default: not set.
+
 - `sm` - number - Define which grid layout should be rendered on sm media query. 
+
 	Default: not set.
+
 - `md` - number - Define which grid layout should be rendered on md media query. 
+
 	Default: not set.
+
 - `lg` - number - Define which grid layout should be rendered on lg media query. 
+
 	Default: not set.
+
 - `xl` - number - Define which grid layout should be rendered on xl media query. 
+
 	Default: not set.
+
 - `xxl` - number - Define which grid layout should be rendered on xxl media query. 
+
 	Default: not set.
+
 - `xxxl` - number - Define which grid layout should be rendered on xxxl media query. 
+
 	Default: not set.
+
 - `first` - boolean - Define if the element should go first. 
+
 	Default: false.
+
 - `firstSm` - boolean - Define if the element should go first on sm media query. 
+
 	Default: false.
+
 - `firstMd` - boolean - Define if the element should go first on md media query. 
+
 	Default: false.
+
 - `firstLg` - boolean - Define if the element should go first on lg media query. 
+
 	Default: false.
+
 - `firstXl` - boolean - Define if the element should go first on xl media query. 
+
 	Default: false.
+
 - `firstXxl` - boolean - Define if the element should go first on xxl media query. 
+
 	Default: false.
+
 - `firstXxxl` - boolean - Define if the element should go first on xxxl media query. 
+
 	Default: false.
+
 - `last` - boolean - Define if the element should go last. 
+
 	Default: false. 
+
 - `lastSm`, - boolean - Define if the element should go last on sm media query. 
+
 	Default: false.
+
 - `lastMd` - boolean - Define if the element should go last on md media query. 
+
 	Default: false.
+
 - `lastLg` - boolean - Define if the element should go last on lg media query. 
+
 	Default: false.
+
 - `lastXl` - boolean - Define if the element should go last on xl media query. 
+
 	Default: false.
+
 - `lastXxl` - boolean - Define if the element should go last on xxl media query. 
+
 	Default: false.
+
 - `lastXxxl` - boolean - Define if the element should go last on xxxl media query. 
+
 	Default: false.
+
 
 # Single purpose CSS classes
 ```css
