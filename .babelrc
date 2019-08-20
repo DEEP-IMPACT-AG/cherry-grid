@@ -8,8 +8,12 @@
 		"@babel/plugin-proposal-object-rest-spread",
 		["css-modules-transform", {
 			"extensions": [".css"],
-			"generateScopedName": "[hash:base64:3]", 
-			"mode": "local"
+			"generateScopedName": "[hash:base64:5]", 
+			"mode": "local",
+			"extractCss": "./dist/styles.css",
+			"prepend": [
+				"postcss-mixins",
+			]
 		}]
 	]
 }
