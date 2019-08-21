@@ -99,27 +99,27 @@ Col stands for column. The `<Col>` component should always be a direct child of 
 
 	Default: not set.
 
-- `sm` - **number** - Define which grid layout should be rendered on sm media query. 
+- `sm` - **number** - Define which grid layout should be rendered on sm media query. 
 
 	Default: not set.
 
-- `md` - **number** - Define which grid layout should be rendered on md media query. 
+- `md` - **number** - Define which grid layout should be rendered on md media query. 
 
 	Default: not set.
 
-- `lg` - **number** - Define which grid layout should be rendered on lg media query. 
+- `lg` - **number** - Define which grid layout should be rendered on lg media query. 
 
 	Default: not set.
 
-- `xl` - **number** - Define which grid layout should be rendered on xl media query. 
+- `xl` - **number** - Define which grid layout should be rendered on xl media query. 
 
 	Default: not set.
 
-- `xxl` - **number** - Define which grid layout should be rendered on xxl media query. 
+- `xxl` - **number** - Define which grid layout should be rendered on xxl media query. 
 
 	Default: not set.
 
-- `xxxl` - **number** - Define which grid layout should be rendered on xxxl media query. 
+- `xxxl` - **number** - Define which grid layout should be rendered on xxxl media query. 
 
 	Default: not set.
 
