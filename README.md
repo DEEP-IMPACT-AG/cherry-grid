@@ -17,7 +17,7 @@ Below you will find a typical example of the grid usage:
 ```
 import React from 'react';
 import styles from './App.css';
-import { Container, Row, Col } from 'cherry-design';
+import { Container, Row, Col } from 'cherry-grid';
 
 function App() {
 	return (
@@ -182,5 +182,5 @@ Col stands for column. The `<Col>` component should always be a direct child of 
 
 # Single purpose CSS classes
 ```css
-@import 'cherry-design/dist/css/styles.css';
+@import 'cherry-grid/dist/css/styles.css';
 ```
