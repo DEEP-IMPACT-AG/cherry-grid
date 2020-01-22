@@ -32,22 +32,22 @@
 	"author": "Luan Gjokaj",
 	"license": "MIT",
 	"devDependencies": {
-		"@babel/core": "^7.5.5",
-		"@babel/plugin-proposal-class-properties": "^7.5.5",
-		"@babel/preset-env": "^7.5.5",
-		"@babel/preset-react": "^7.0.0",
+		"@babel/core": "^7.8.3",
+		"@babel/plugin-proposal-class-properties": "^7.8.3",
+		"@babel/preset-env": "^7.8.3",
+		"@babel/preset-react": "^7.8.3",
 		"classnames": "^2.2.6",
 		"postcss-flexbugs-fixes": "^4.1.0",
 		"postcss-for": "^2.1.1",
 		"postcss-import": "^12.0.1",
-		"postcss-mixins": "^6.2.2",
+		"postcss-mixins": "^6.2.3",
 		"postcss-preset-env": "^6.7.0",
-		"rollup": "^1.20.3",
+		"rollup": "^1.29.1",
 		"rollup-plugin-babel": "^4.3.3",
 		"rollup-plugin-commonjs": "^10.1.0",
 		"rollup-plugin-node-resolve": "^5.2.0",
 		"rollup-plugin-postcss": "^2.0.3",
 		"rollup-plugin-replace": "^2.2.0",
-		"rollup-plugin-terser": "^5.1.1"
+		"rollup-plugin-terser": "^5.2.0"
 	}
 }
