@@ -5,7 +5,6 @@ Cherry is a live inventory of definitions for the UI components, design patterns
 
 This is the official repository for the Cherry Grid - NPM Library.
 
-
 ## Installation
 ```
 npm install cherry-grid
@@ -16,26 +15,23 @@ Below you will find a typical example of the grid usage:
 
 ```
 import React from 'react';
-import styles from './App.css';
 import { Container, Row, Col } from 'cherry-grid';
+import styles from './App.css';
 
 function App() {
 	return (
-		<div>
-			<Container>
-				<Row>
-					<Col className={styles.border} xs={4}>1</Col>
-					<Col className={styles.border} xs={4}>2</Col>
-					<Col className={styles.border} xs={4}>3</Col>
-				</Row>
-			</Container>
-		</div>
+		<Container>
+			<Row>
+				<Col className={styles.border} xs={4}>1</Col>
+				<Col className={styles.border} xs={4}>2</Col>
+				<Col className={styles.border} xs={4}>3</Col>
+			</Row>
+		</Container>
 	);
 }
 
 export default App;
 ```
-
 
 # Grid Components
 ### Container
@@ -180,8 +176,11 @@ Col stands for column. The `<Col>` component should always be a direct child of 
 	Default: false.
 
 # Add Cherry variables
-If you don't have the Cherry variables in the project yet, please add the minimum required for the Grid to work:
+If you don't have the Cherry variables in the project yet, please add the minimum required for the Grid to work.
+Import the [mixins.css](https://raw.githubusercontent.com/DEEP-IMPACT-AG/cherry/master/src/assets/css/mixins.css) and declare basic variables:
 ```css
+@import './mixins.css';
+
 @custom-media --screen-xs (min-width: 0);
 @custom-media --screen-sm (min-width: 576px);
 @custom-media --screen-md (min-width: 768px);
@@ -206,6 +205,7 @@ If you don't have the Cherry variables in the project yet, please add the minimu
 ```
 
 # Single purpose CSS classes
+[🔗Documentation](https://cherry.design/css-grid)
 ```css
 @import 'cherry-grid/dist/css/styles.css';
 ```

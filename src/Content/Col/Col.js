@@ -62,6 +62,7 @@ export class Col extends Component {
 					},
 					className,
 				)}
+				data-col
 			>
 				{children}
 			</div>
