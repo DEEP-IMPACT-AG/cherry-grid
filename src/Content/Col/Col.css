@@ -1,8 +1,8 @@
 @import '../css/variables.css';
 
 :root {
-	--gutter-col-mobile: 10px;
-	--gutter-col-desktop: 10px;
+	--gutter-col-mobile: var(--gutter-col-mobile-external, 10px);
+	--gutter-col-desktop: var(--gutter-col-desktop-external, 10px);
 }
 
 @define-mixin col {

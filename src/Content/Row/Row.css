@@ -1,8 +1,8 @@
 @import '../css/variables.css';
 
 :root {
-	--margin-row-mobile: -10px;
-	--margin-row-desktop: -10px;
+	--margin-row-mobile: var(--margin-row-mobile-external, -10px);
+	--margin-row-desktop: var(--margin-row-desktop-external, -10px);
 }
 
 @define-mixin row {
