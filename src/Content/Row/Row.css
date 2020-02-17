@@ -1,18 +1,13 @@
 @import '../css/variables.css';
 
-:root {
-	--margin-row-mobile: var(--margin-row-mobile-external, -10px);
-	--margin-row-desktop: var(--margin-row-desktop-external, -10px);
-}
-
 @define-mixin row {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	margin: 0 var(--margin-row-mobile);
+	margin: 0 var(--margin-row-mobile, -10px);
 
 	@media (--screen-lg) {
-		margin: 0 var(--margin-row-desktop);
+		margin: 0 var(--margin-row-desktop, -10px);
 	}
 }
 

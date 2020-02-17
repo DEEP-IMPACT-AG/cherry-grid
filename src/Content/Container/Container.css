@@ -1,22 +1,15 @@
 
 @import '../css/variables.css';
-:root {
-	--max-width: var(--max-width-external, 1440px);
-	--margin-container-mobile: var(--margin-container-mobile-external, 20px);
-	--margin-container-desktop: var(--margin-container-desktop-external, 20px);
-	--margin-container-child-mobile: var(--margin-container-mobile-external, 10px);
-	--margin-container-child-desktop: var(--margin-container-child-mobile-external, 10px);
-}
 
 @define-mixin container {
 	margin: auto;
-	max-width: var(--max-width);
-	padding-right: var(--margin-container-mobile);
-	padding-left: var(--margin-container-mobile);
+	max-width: var(--max-width, 1440px);
+	padding-right: var(--margin-container-mobile, 20px);
+	padding-left: var(--margin-container-mobile, 20px);
 
 	@media (--screen-lg) {
-		padding-right: var(--margin-container-desktop);
-		padding-left: var(--margin-container-desktop);
+		padding-right: var(--margin-container-desktop, 20px);
+		padding-left: var(--margin-container-desktop, 20px);
 	}
 
 	@media (--screen-xxxl) {
@@ -27,25 +20,25 @@
 @define-mixin containerFluid {
 	width: 100%;
 	max-width: initial;
-	padding-right: var(--margin-container-mobile);
-	padding-left: var(--margin-container-mobile);
+	padding-right: var(--margin-container-mobile, 20px);
+	padding-left: var(--margin-container-mobile, 20px);
 	margin-right: auto;
 	margin-left: auto;
 
 	@media (--screen-lg) {
-		padding-right: var(--margin-container-desktop);
-		padding-left: var(--margin-container-desktop);
+		padding-right: var(--margin-container-desktop, 20px);
+		padding-left: var(--margin-container-desktop, 20px);
 	}
 }
 
 
 @define-mixin containerChild {
-	padding-right: var(--margin-container-child-mobile);
-	padding-left: var(--margin-container-child-mobile);
+	padding-right: var(--margin-container-child-mobile, 10px);
+	padding-left: var(--margin-container-child-mobile, 10px);
 
 	@media (--screen-lg) {
-		padding-right: var(--margin-container-child-desktop);
-		padding-left: var(--margin-container-child-desktop);
+		padding-right: var(--margin-container-child-desktop, 10px);
+		padding-left: var(--margin-container-child-desktop, 10px);
 	}
 }
 
