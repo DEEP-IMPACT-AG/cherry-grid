@@ -179,6 +179,23 @@ Col stands for column. The `<Col>` component should always be a direct child of 
 
 	Default: false.
 
+# External variables
+Overwrite the NPM library variables with:
+```css
+:root {
+	--max-width-external: 1440px;
+
+	--margin-container-mobile-external: 20px;
+	--margin-container-desktop-external: 80px;
+	--margin-container-child-mobile-external: 10px;
+	--margin-container-child-desktop-external: 10px;
+
+	--margin-row-mobile-external: -20px;
+	--margin-row-desktop-external: -20px;
+	--gutter-col-mobile-external: 20px;
+	--gutter-col-desktop-external: 20px;
+}
+```
 
 # Single purpose CSS classes
 ```css
