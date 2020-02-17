@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
-import classNames from 'classnames';
-import styles from './Col.css';
+import React, { Component } from "react";
+import classNames from "classnames";
+import styles from "./Col.css";
 
 export class Col extends Component {
-	render () {
+	render() {
 		const {
 			textAlign,
 			className,
@@ -37,14 +37,14 @@ export class Col extends Component {
 				className={classNames(
 					styles.col,
 					{
-						[styles[`textAlign-${textAlign || ''}`]]: textAlign,
-						[styles[`col${xs || ''}`]]: xs,
-						[styles[`colSm${sm || ''}`]]: sm,
-						[styles[`colMd${md || ''}`]]: md,
-						[styles[`colLg${lg || ''}`]]: lg,
-						[styles[`colXl${xl || ''}`]]: xl,
-						[styles[`colXxl${xxl || ''}`]]: xxl,
-						[styles[`colXxxl${xxxl || ''}`]]: xxxl,
+						[styles[`textAlign-${textAlign || ""}`]]: textAlign,
+						[styles[`col${xs || ""}`]]: xs,
+						[styles[`colSm${sm || ""}`]]: sm,
+						[styles[`colMd${md || ""}`]]: md,
+						[styles[`colLg${lg || ""}`]]: lg,
+						[styles[`colXl${xl || ""}`]]: xl,
+						[styles[`colXxl${xxl || ""}`]]: xxl,
+						[styles[`colXxxl${xxxl || ""}`]]: xxxl,
 						[styles.orderFirst]: first,
 						[styles.orderSmFirst]: firstSm,
 						[styles.orderMdFirst]: firstMd,
@@ -60,7 +60,7 @@ export class Col extends Component {
 						[styles.orderXxlLast]: lastXxl,
 						[styles.orderXxxlLast]: lastXxxl,
 					},
-					className
+					className,
 				)}
 			>
 				{children}

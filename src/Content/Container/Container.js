@@ -1,10 +1,15 @@
-import React from 'react';
-import classNames from 'classnames';
-import styles from './Container.css';
+import React from "react";
+import classNames from "classnames";
+import styles from "./Container.css";
 
 export class Container extends React.Component {
-	render () {
-		const { className, children, fluid = false, child = false } = this.props;
+	render() {
+		const {
+			className,
+			children,
+			fluid = false,
+			child = false,
+		} = this.props;
 		return (
 			<div
 				className={classNames(
@@ -13,7 +18,7 @@ export class Container extends React.Component {
 						[styles.containerFluid]: fluid,
 						[styles.containerChild]: child,
 					},
-					className
+					className,
 				)}
 			>
 				{children}
