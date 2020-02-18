@@ -213,7 +213,7 @@ Import the [mixins.css](https://cherry-design.s3-eu-west-1.amazonaws.com/cherry-
 ```
 
 # Single purpose CSS classes
-[🔗Documentation](https://cherry.design/css/css-grid)
+[🔗Documentation](https://cherry.design/css/cherry-grid)
 ```css
 @import 'cherry-grid/dist/css/styles.css';
 ```
