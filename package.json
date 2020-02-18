@@ -28,7 +28,7 @@
 		"watch": "rollup -c lib/rollup.config.js -w",
 		"format": "prettier --write \"./src/**/*.{js,json,ts,tsx}\" \"!.node_modules/**\""
 	},
-	"author": "Luan Gjokaj",
+	"author": "Luan Gjokaj (https://www.riangle.com)",
 	"license": "MIT",
 	"devDependencies": {
 		"@babel/core": "^7.8.4",
