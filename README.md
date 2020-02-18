@@ -177,7 +177,7 @@ Col stands for column. The `<Col>` component should always be a direct child of 
 
 # Add Cherry variables
 If you don't have the Cherry variables in the project yet, please add the minimum required for the Grid to work.
-Import the [mixins.css](https://raw.githubusercontent.com/DEEP-IMPACT-AG/cherry/master/src/assets/css/mixins.css) and declare basic variables:
+Import the [mixins.css](https://raw.githubusercontent.com/DEEP-IMPACT-AG/cherry/master/src/assets/css/mixins.css) (Plugin: [postcss-mixins](https://github.com/postcss/postcss-mixins)) and declare basic variables:
 ```css
 @import './mixins.css';
 
