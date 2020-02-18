@@ -5,7 +5,7 @@ Cherry is a live inventory of definitions for the UI components, design patterns
 
 This is the official repository for the **Cherry Grid**.
 
-Main repository: [**Cherry**](https://github.com/DEEP-IMPACT-AG/cherry)
+Main repository:   💾 [**Cherry**](https://github.com/DEEP-IMPACT-AG/cherry)
 
 # Cherry Grid
 
