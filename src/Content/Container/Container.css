@@ -31,7 +31,6 @@
 	}
 }
 
-
 @define-mixin containerChild {
 	padding-right: var(--margin-container-child-mobile, 10px);
 	padding-left: var(--margin-container-child-mobile, 10px);
@@ -46,10 +45,10 @@
 	@mixin container;
 }
 
-.containerFluid {
+.container-fluid {
 	@mixin containerFluid;
 }
 
-.containerChild {
+.container-child {
 	@mixin containerChild;
 }

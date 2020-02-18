@@ -10,9 +10,9 @@ export class Row extends Component {
 				className={classNames(
 					styles.row,
 					{
-						[styles[`alignItems-${alignItems}`]]: alignItems,
+						[styles[`align-items-${alignItems}`]]: alignItems,
 						[styles[
-							`justifyContent-${justifyContent}`
+							`justify-content-${justifyContent}`
 						]]: justifyContent,
 					},
 					className,

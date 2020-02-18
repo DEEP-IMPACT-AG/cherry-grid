@@ -15,50 +15,50 @@
 	@mixin row;
 }
 
-.justifyContent-flex-start {
+.justify-content-flex-start {
 	justify-content: flex-start;
 }
 
-.justifyContent-flex-end {
+.justify-content-flex-end {
 	justify-content: flex-end;
 }
 
-.justifyContent-center {
+.justify-content-center {
 	justify-content: center;
 }
 
-.justifyContent-space-between {
+.justify-content-space-between {
 	justify-content: space-between;
 }
 
-.justifyContent-space-around {
+.justify-content-space-around {
 	justify-content: space-around;
 }
 
-.justifyContent-initial {
+.justify-content-initial {
 	justify-content: initial;
 }
 
-.alignItems-stretch {
+.align-items-stretch {
 	align-items: stretch;
 }
 
-.alignItems-center {
+.align-items-center {
 	align-items: center;
 }
 
-.alignItems-flex-start {
+.align-items-flex-start {
 	align-items: flex-start;
 }
 
-.alignItems-flex-end {
+.align-items-flex-end {
 	align-items: flex-end;
 }
 
-.alignItems-baseline {
+.align-items-baseline {
 	align-items: baseline;
 }
 
-.alignItems-initial {
+.align-items-initial {
 	align-items: initial;
 }

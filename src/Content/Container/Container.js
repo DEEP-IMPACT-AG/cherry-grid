@@ -15,8 +15,8 @@ export class Container extends React.Component {
 				className={classNames(
 					styles.container,
 					{
-						[styles.containerFluid]: fluid,
-						[styles.containerChild]: child,
+						[styles[`container-fluid`]]: fluid,
+						[styles[`container-child`]]: child,
 					},
 					className,
 				)}
