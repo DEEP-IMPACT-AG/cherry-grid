@@ -1,19 +1,25 @@
 [![Cheery Logo](https://res.cloudinary.com/deep-impact-ag/image/upload/v1559170058/cherry/cherry.svg)](https://cherry.design/)
 
-🌍 [Website](https://cherry.design/npm/grid-components) - 📦 [NPM Package](https://www.npmjs.com/package/cherry-grid) - 📌 [CSS Direct Link](https://raw.githubusercontent.com/DEEP-IMPACT-AG/cherry-grid/master/dist/css/styles.css) 
-
 # Introduction
 Cherry is a live inventory of definitions for the UI components, design patterns, naming conventions, brand assets and code guidelines.
 
 This is the official repository for the **Cherry Grid**.
+
+Main repository: [**Cherry**](https://github.com/DEEP-IMPACT-AG/cherry)
+
+# Cherry Grid
+
+Cherry’s grid system uses a series of containers, rows, and columns to layout and align content. It’s built with flexbox and is fully responsive. Below is an example and an in-depth look at how the grid comes together.
+
+🌍 [Website](https://cherry.design/npm/cherry-grid) - 📦 [NPM Package](https://www.npmjs.com/package/cherry-grid) - 📌 [CSS Direct Link](https://cherry-design.s3-eu-west-1.amazonaws.com/cherry-grid.css) 
 
 ## Installation
 ```
 npm install cherry-grid
 ```
 
-## The Grid
-Below you will find a typical example of the grid usage:
+### Sample usage
+Below you will find a typical example of the grid usage.
 
 ```
 import React from 'react';
@@ -179,7 +185,7 @@ Col stands for column. The `<Col>` component should always be a direct child of 
 
 # Add Cherry's variables
 If you don't have the Cherry's variables in the project yet, please add the minimum required for the Grid to work.
-Import the [mixins.css](https://raw.githubusercontent.com/DEEP-IMPACT-AG/cherry/master/src/assets/css/mixins.css) (Plugin: [postcss-mixins](https://github.com/postcss/postcss-mixins)) and declare basic variables:
+Import the [mixins.css](https://cherry-design.s3-eu-west-1.amazonaws.com/cherry-grid.css) (Plugin: [postcss-mixins](https://github.com/postcss/postcss-mixins)) and declare basic variables:
 ```css
 @import './mixins.css';
 
