@@ -32,12 +32,12 @@
 }
 
 @define-mixin containerChild {
-	padding-right: var(--margin-container-child-mobile, 10px);
-	padding-left: var(--margin-container-child-mobile, 10px);
+	padding-right: 0;
+	padding-left: 0;
 
 	@media (--screen-lg) {
-		padding-right: var(--margin-container-child-desktop, 10px);
-		padding-left: var(--margin-container-child-desktop, 10px);
+		padding-right: 0;
+		padding-left: 0;
 	}
 }
 
