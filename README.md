@@ -1,9 +1,11 @@
 [![Cheery Logo](https://res.cloudinary.com/deep-impact-ag/image/upload/v1559170058/cherry/cherry.svg)](https://cherry.design/)
 
+🌍 [Website](https://cherry.design/npm/grid-components) - 📦 [NPM Package](https://www.npmjs.com/package/cherry-grid) - 📌 [CSS Direct Link](https://raw.githubusercontent.com/DEEP-IMPACT-AG/cherry-grid/master/dist/css/styles.css) 
+
 # Introduction
 Cherry is a live inventory of definitions for the UI components, design patterns, naming conventions, brand assets and code guidelines.
 
-This is the official repository for the Cherry Grid - NPM Library.
+This is the official repository for the **Cherry Grid**.
 
 ## Installation
 ```
@@ -22,9 +24,9 @@ function App() {
 	return (
 		<Container>
 			<Row>
-				<Col className={styles.border} xs={4}>1</Col>
-				<Col className={styles.border} xs={4}>2</Col>
-				<Col className={styles.border} xs={4}>3</Col>
+				<Col className={styles.border} xs={4} lg={6}>1</Col>
+				<Col className={styles.border} xs={4} lg={6}>2</Col>
+				<Col className={styles.border} xs={4} lg={12}>3</Col>
 			</Row>
 		</Container>
 	);
@@ -175,8 +177,8 @@ Col stands for column. The `<Col>` component should always be a direct child of 
 
 	Default: false.
 
-# Add Cherry variables
-If you don't have the Cherry variables in the project yet, please add the minimum required for the Grid to work.
+# Add Cherry's variables
+If you don't have the Cherry's variables in the project yet, please add the minimum required for the Grid to work.
 Import the [mixins.css](https://raw.githubusercontent.com/DEEP-IMPACT-AG/cherry/master/src/assets/css/mixins.css) (Plugin: [postcss-mixins](https://github.com/postcss/postcss-mixins)) and declare basic variables:
 ```css
 @import './mixins.css';
@@ -205,7 +207,7 @@ Import the [mixins.css](https://raw.githubusercontent.com/DEEP-IMPACT-AG/cherry/
 ```
 
 # Single purpose CSS classes
-[🔗Documentation](https://cherry.design/css-grid)
+[🔗Documentation](https://cherry.design/css/css-grid)
 ```css
 @import 'cherry-grid/dist/css/styles.css';
 ```
