@@ -5,6 +5,7 @@ import styles from "./Container.css";
 export class Container extends React.Component {
 	render() {
 		const {
+			id,
 			className,
 			children,
 			fluid = false,
@@ -12,6 +13,7 @@ export class Container extends React.Component {
 		} = this.props;
 		return (
 			<div
+				id={id}
 				className={classNames(
 					styles.container,
 					{

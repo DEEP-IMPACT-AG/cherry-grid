@@ -5,10 +5,10 @@ import styles from "./Col.css";
 export class Col extends Component {
 	render() {
 		const {
-			textAlign,
-			className,
 			id,
+			className,
 			children,
+			textAlign,
 			xs,
 			sm,
 			md,

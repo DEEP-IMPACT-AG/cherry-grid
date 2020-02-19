@@ -19,7 +19,7 @@
 
 @define-mixin containerFluid {
 	width: 100%;
-	max-width: initial;
+	max-width: 100%;
 	padding-right: var(--margin-container-mobile, 20px);
 	padding-left: var(--margin-container-mobile, 20px);
 	margin-right: auto;

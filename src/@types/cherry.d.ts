@@ -3,18 +3,26 @@ import * as React from "react";
 type Omit<T, K> = Pick<T, Exclude<keyof T, K>>;
 
 export interface ContainerProps extends React.HTMLAttributes<HTMLElement> {
+	id?: string;
+	className?: string;
+	children?: React.ReactNode;
 	fluid?: boolean;
 	child?: boolean;
 }
 
 export interface RowProps extends Omit<React.HTMLProps<HTMLElement>, "form"> {
+	id?: string;
+	className?: string;
+	children?: React.ReactNode;
 	alignItems?: string;
 	justifyContent?: string;
 }
 
 export interface ColProps extends Omit<React.HTMLProps<HTMLElement>, "form"> {
-	textAlign?: string;
 	id?: string;
+	className?: string;
+	children?: React.ReactNode;
+	textAlign?: string;
 	xs?: number;
 	sm?: number;
 	md?: number;
