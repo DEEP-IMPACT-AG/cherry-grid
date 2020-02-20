@@ -31,6 +31,7 @@ export interface ColProps extends Omit<React.HTMLProps<HTMLElement>, "form"> {
 	xxl?: number;
 	xxxl?: number;
 	first?: boolean;
+	firstXs?: boolean;
 	firstSm?: boolean;
 	firstMd?: boolean;
 	firstLg?: boolean;
@@ -38,6 +39,7 @@ export interface ColProps extends Omit<React.HTMLProps<HTMLElement>, "form"> {
 	firstXxl?: boolean;
 	firstXxxl?: boolean;
 	last?: boolean;
+	lastXs?: boolean;
 	lastSm?: boolean;
 	lastMd?: boolean;
 	lastLg?: boolean;

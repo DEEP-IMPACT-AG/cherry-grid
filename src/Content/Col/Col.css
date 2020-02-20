@@ -151,11 +151,11 @@
 	@mixin col12;
 }
 
-.order-first {
+.col-order-first {
 	order: -1;
 }
 
-.order-last {
+.col-order-last {
 	order: 13;
 }
 
@@ -216,11 +216,11 @@
 		@mixin col12;
 	}
 
-	.order-xs-first {
+	.col-xs-order-first {
 		order: -1;
 	}
 
-	.order-xs-last {
+	.col-xs-order-last {
 		order: 13;
 	}
 }
@@ -282,11 +282,11 @@
 		@mixin col12;
 	}
 
-	.order-sm-first {
+	.col-sm-order-first {
 		order: -1;
 	}
 
-	.order-sm-last {
+	.col-sm-order-last {
 		order: 13;
 	}
 }
@@ -352,11 +352,11 @@
 		@mixin col12;
 	}
 
-	.order-md-first {
+	.col-md-order-first {
 		order: -1;
 	}
 
-	.order-md-last {
+	.col-md-order-last {
 		order: 13;
 	}
 }
@@ -418,11 +418,11 @@
 		@mixin col12;
 	}
 
-	.order-lg-first {
+	.col-lg-order-first {
 		order: -1;
 	}
 
-	.order-lg-last {
+	.col-lg-order-last {
 		order: 13;
 	}
 }
@@ -484,11 +484,11 @@
 		@mixin col12;
 	}
 
-	.order-xl-first {
+	.col-xl-order-first {
 		order: -1;
 	}
 
-	.order-xl-last {
+	.col-xl-order-last {
 		order: 13;
 	}
 }
@@ -550,11 +550,11 @@
 		@mixin col12;
 	}
 
-	.order-xxl-first {
+	.col-xxl-order-first {
 		order: -1;
 	}
 
-	.order-xxl-last {
+	.col-xxl-order-last {
 		order: 13;
 	}
 }
@@ -616,11 +616,11 @@
 		@mixin col12;
 	}
 
-	.order-xxxl-first {
+	.col-xxxl-order-first {
 		order: -1;
 	}
 
-	.order-xxxl-last {
+	.col-xxxl-order-last {
 		order: 13;
 	}
 }
