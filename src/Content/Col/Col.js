@@ -39,7 +39,7 @@ export class Col extends Component {
 				className={classNames(
 					{
 						[styles[`text-align-${textAlign || ""}`]]: textAlign,
-						[styles[`col-${xs || ""}`]]: xs,
+						[styles[`col-xs-${xs || ""}`]]: xs,
 						[styles[`col-sm-${sm || ""}`]]: sm,
 						[styles[`col-md-${md || ""}`]]: md,
 						[styles[`col-lg-${lg || ""}`]]: lg,

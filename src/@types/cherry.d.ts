@@ -14,22 +14,34 @@ export interface RowProps extends Omit<React.HTMLProps<HTMLElement>, "form"> {
 	id?: string;
 	className?: string;
 	children?: React.ReactNode;
-	alignItems?: string;
-	justifyContent?: string;
+	alignItems?:
+		| "stretch"
+		| "center"
+		| "flex-start"
+		| "flex-end"
+		| "baseline"
+		| "initial";
+	justifyContent?:
+		| "flex-start"
+		| "flex-end"
+		| "center"
+		| "space-between"
+		| "space-around"
+		| "initial";
 }
 
 export interface ColProps extends Omit<React.HTMLProps<HTMLElement>, "form"> {
 	id?: string;
 	className?: string;
 	children?: React.ReactNode;
-	textAlign?: string;
-	xs?: number;
-	sm?: number;
-	md?: number;
-	lg?: number;
-	xl?: number;
-	xxl?: number;
-	xxxl?: number;
+	textAlign?: "right" | "left" | "center";
+	xs?: number | "auto";
+	sm?: number | "auto";
+	md?: number | "auto";
+	lg?: number | "auto";
+	xl?: number | "auto";
+	xxl?: number | "auto";
+	xxxl?: number | "auto";
 	first?: boolean;
 	firstXs?: boolean;
 	firstSm?: boolean;
