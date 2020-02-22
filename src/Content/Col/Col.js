@@ -37,7 +37,6 @@ export class Col extends Component {
 			<div
 				id={id}
 				className={classNames(
-					styles.col,
 					{
 						[styles[`text-align-${textAlign || ""}`]]: textAlign,
 						[styles[`col-${xs || ""}`]]: xs,

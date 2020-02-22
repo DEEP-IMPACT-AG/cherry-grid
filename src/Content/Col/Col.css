@@ -18,67 +18,80 @@
 }
 
 @define-mixin colAuto {
+	@mixin col;
 	flex: 0 0 auto;
 	width: auto;
 	max-width: none;
 }
 
 @define-mixin col1 {
+	@mixin col;
 	flex: 0 0 8.333333%;
 	max-width: 8.333333%;
 }
 
 @define-mixin col2 {
+	@mixin col;
 	flex: 0 0 16.666667%;
 	max-width: 16.666667%;
 }
 
 @define-mixin col3 {
+	@mixin col;
 	flex: 0 0 25%;
 	max-width: 25%;
 }
 
 @define-mixin col4 {
+	@mixin col;
 	flex: 0 0 33.333333%;
 	max-width: 33.333333%;
 }
 
 @define-mixin col5 {
+	@mixin col;
 	flex: 0 0 41.666667%;
 	max-width: 41.666667%;
 }
 
 @define-mixin col6 {
+	@mixin col;
 	flex: 0 0 50%;
 	max-width: 50%;
 }
 
 @define-mixin col7 {
+	@mixin col;
 	flex: 0 0 58.333333%;
 	max-width: 58.333333%;
 }
 
 @define-mixin col8 {
+	@mixin col;
 	flex: 0 0 66.666667%;
 	max-width: 66.666667%;
 }
 
 @define-mixin col9 {
+	@mixin col;
 	flex: 0 0 75%;
 	max-width: 75%;
 }
 
 @define-mixin col10 {
+	@mixin col;
 	flex: 0 0 83.333333%;
 	max-width: 83.333333%;
 }
 
 @define-mixin col11 {
+	@mixin col;
 	flex: 0 0 91.666667%;
 	max-width: 91.666667%;
 }
 
 @define-mixin col12 {
+	@mixin col;
 	flex: 0 0 100%;
 	max-width: 100%;
 }
@@ -93,10 +106,6 @@
 
 .text-align-right {
 	text-align: right;
-}
-
-.col {
-	@mixin col;
 }
 
 .col-auto {
@@ -160,10 +169,6 @@
 }
 
 @media (--screen-xs) {
-	.col-xs {
-		@mixin col;
-	}
-
 	.col-xs-auto {
 		@mixin colAuto;
 	}
@@ -226,10 +231,6 @@
 }
 
 @media (--screen-sm) {
-	.col-sm {
-		@mixin col;
-	}
-
 	.col-sm-auto {
 		@mixin colAuto;
 	}
@@ -292,14 +293,6 @@
 }
 
 @media (--screen-md) {
-	.col-md {
-		@mixin col;
-	}
-
-	.col-md {
-		@mixin col;
-	}
-
 	.col-md-auto {
 		@mixin colAuto;
 	}
@@ -362,10 +355,6 @@
 }
 
 @media (--screen-lg) {
-	.col-lg {
-		@mixin col;
-	}
-
 	.col-lg-auto {
 		@mixin colAuto;
 	}
@@ -428,10 +417,6 @@
 }
 
 @media (--screen-xl) {
-	.col-xl {
-		@mixin col;
-	}
-
 	.col-xl-auto {
 		@mixin colAuto;
 	}
@@ -494,10 +479,6 @@
 }
 
 @media (--screen-xxl) {
-	.col-xxl {
-		@mixin col;
-	}
-
 	.col-xxl-auto {
 		@mixin colAuto;
 	}
@@ -560,10 +541,6 @@
 }
 
 @media (--screen-xxxl) {
-	.col-xxxl {
-		@mixin col;
-	}
-
 	.col-xxxl-auto {
 		@mixin colAuto;
 	}
