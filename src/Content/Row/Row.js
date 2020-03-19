@@ -24,6 +24,7 @@ export class Row extends Component {
 					},
 					className,
 				)}
+				data-row
 			>
 				{children}
 			</div>
