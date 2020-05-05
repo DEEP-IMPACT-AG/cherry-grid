@@ -7,6 +7,14 @@ This is the official repository for the **Cherry Grid**.
 
 Main repository: 💾 [**Cherry**](https://github.com/DEEP-IMPACT-AG/cherry)
 
+# Features
+- Responsive
+- Mobile first
+- 12 columns grid
+- Vanilla CSS
+- Components
+- Column gaps
+
 # Documentation
 
 Cherry’s grid system uses a series of containers, rows, and columns to layout and align content. It’s built with flexbox and is fully responsive. Below is an example and an in-depth look at how the grid comes together.

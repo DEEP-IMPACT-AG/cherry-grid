@@ -42,6 +42,13 @@ export interface ColProps extends Omit<React.HTMLProps<HTMLElement>, "form"> {
 	xl?: number | "auto";
 	xxl?: number | "auto";
 	xxxl?: number | "auto";
+	gapsXs?: "none" | "default" | "medium" | "big";
+	gapsSm?: "none" | "default" | "medium" | "big";
+	gapsMd?: "none" | "default" | "medium" | "big";
+	gapsLg?: "none" | "default" | "medium" | "big";
+	gapsXl?: "none" | "default" | "medium" | "big";
+	gapsXxl?: "none" | "default" | "medium" | "big";
+	gapsXxxl?: "none" | "default" | "medium" | "big";
 	first?: boolean;
 	firstXs?: boolean;
 	firstSm?: boolean;

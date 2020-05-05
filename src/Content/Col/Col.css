@@ -4,17 +4,10 @@
 	position: relative;
 	width: 100%;
 	min-height: 1px;
-	padding-right: var(--gutter-col-mobile, 10px);
-	padding-left: var(--gutter-col-mobile, 10px);
 	flex-basis: 0;
 	flex-grow: 1;
 	max-width: 100%;
 	box-sizing: border-box;
-
-	@media (--screen-lg) {
-		padding-right: var(--gutter-col-desktop, 10px);
-		padding-left: var(--gutter-col-desktop, 10px);
-	}
 }
 
 @define-mixin colAuto {

@@ -57,7 +57,6 @@ export class Col extends Component {
 						[styles[`col-order-last`]]: last,
 						[styles[`col-xs-order-last`]]: lastXs,
 						[styles[`col-sm-order-last`]]: lastSm,
-						[styles[`col-sm-order-last`]]: lastSm,
 						[styles[`col-md-order-last`]]: lastMd,
 						[styles[`col-lg-order-last`]]: lastLg,
 						[styles[`col-xl-order-last`]]: lastXl,
@@ -68,7 +67,7 @@ export class Col extends Component {
 				)}
 				data-col
 			>
-				{children}
+				{children && children}
 			</div>
 		);
 	}

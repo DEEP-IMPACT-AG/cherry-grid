@@ -4,11 +4,6 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	margin: 0 var(--margin-row-mobile, -10px);
-
-	@media (--screen-lg) {
-		margin: 0 var(--margin-row-desktop, -10px);
-	}
 }
 
 .row {
@@ -61,4 +56,298 @@
 
 .align-items-initial {
 	align-items: initial;
+}
+
+@media (--screen-xs) {
+	.xs-gaps-none {
+		margin-right: 0;
+		margin-left: 0;
+
+		& [data-col] {
+			padding-right: 0;
+			padding-left: 0;
+		}
+	}
+
+	.xs-gaps-default {
+		margin-right: var(--margin-row-default, -10px);
+		margin-left: var(--margin-row-default, -10px);
+
+		& [data-col] {
+			padding-right: var(--gutter-col-default, 10px);
+			padding-left: var(--gutter-col-default, 10px);
+		}
+	}
+
+	.xs-gaps-medium {
+		margin-right: var(--margin-row-medium, -30px);
+		margin-left: var(--margin-row-medium, -30px);
+
+		& [data-col] {
+			padding-right: var(--gutter-col-medium, 30px);
+			padding-left: var(--gutter-col-medium, 30px);
+		}
+	}
+
+	.xs-gaps-big {
+		margin-right: var(--margin-row-big, -50px);
+		margin-left: var(--margin-row-big, -50px);
+
+		& [data-col] {
+			padding-right: var(--gutter-col-big, 50px);
+			padding-left: var(--gutter-col-big, 50px);
+		}
+	}
+}
+
+@media (--screen-sm) {
+	.sm-gaps-none {
+		margin-right: 0;
+		margin-left: 0;
+
+		& [data-col] {
+			padding-right: 0;
+			padding-left: 0;
+		}
+	}
+
+	.sm-gaps-default {
+		margin-right: var(--margin-row-default, -10px);
+		margin-left: var(--margin-row-default, -10px);
+
+		& [data-col] {
+			padding-right: var(--gutter-col-default, 10px);
+			padding-left: var(--gutter-col-default, 10px);
+		}
+	}
+
+	.sm-gaps-medium {
+		margin-right: var(--margin-row-medium, -30px);
+		margin-left: var(--margin-row-medium, -30px);
+
+		& [data-col] {
+			padding-right: var(--gutter-col-medium, 30px);
+			padding-left: var(--gutter-col-medium, 30px);
+		}
+	}
+
+	.sm-gaps-big {
+		margin-right: var(--margin-row-big, -50px);
+		margin-left: var(--margin-row-big, -50px);
+
+		& [data-col] {
+			padding-right: var(--gutter-col-big, 50px);
+			padding-left: var(--gutter-col-big, 50px);
+		}
+	}
+}
+
+@media (--screen-md) {
+	.md-gaps-none {
+		margin-right: 0;
+		margin-left: 0;
+
+		& [data-col] {
+			padding-right: 0;
+			padding-left: 0;
+		}
+	}
+
+	.md-gaps-default {
+		margin-right: var(--margin-row-default, -10px);
+		margin-left: var(--margin-row-default, -10px);
+
+		& [data-col] {
+			padding-right: var(--gutter-col-default, 10px);
+			padding-left: var(--gutter-col-default, 10px);
+		}
+	}
+
+	.md-gaps-medium {
+		margin-right: var(--margin-row-medium, -30px);
+		margin-left: var(--margin-row-medium, -30px);
+
+		& [data-col] {
+			padding-right: var(--gutter-col-medium, 30px);
+			padding-left: var(--gutter-col-medium, 30px);
+		}
+	}
+
+	.md-gaps-big {
+		margin-right: var(--margin-row-big, -50px);
+		margin-left: var(--margin-row-big, -50px);
+
+		& [data-col] {
+			padding-right: var(--gutter-col-big, 50px);
+			padding-left: var(--gutter-col-big, 50px);
+		}
+	}
+}
+
+@media (--screen-lg) {
+	.lg-gaps-none {
+		margin-right: 0;
+		margin-left: 0;
+
+		& [data-col] {
+			padding-right: 0;
+			padding-left: 0;
+		}
+	}
+
+	.lg-gaps-default {
+		margin-right: var(--margin-row-default, -10px);
+		margin-left: var(--margin-row-default, -10px);
+
+		& [data-col] {
+			padding-right: var(--gutter-col-default, 10px);
+			padding-left: var(--gutter-col-default, 10px);
+		}
+	}
+
+	.lg-gaps-medium {
+		margin-right: var(--margin-row-medium, -30px);
+		margin-left: var(--margin-row-medium, -30px);
+
+		& [data-col] {
+			padding-right: var(--gutter-col-medium, 30px);
+			padding-left: var(--gutter-col-medium, 30px);
+		}
+	}
+
+	.lg-gaps-big {
+		margin-right: var(--margin-row-big, -50px);
+		margin-left: var(--margin-row-big, -50px);
+
+		& [data-col] {
+			padding-right: var(--gutter-col-big, 50px);
+			padding-left: var(--gutter-col-big, 50px);
+		}
+	}
+}
+
+@media (--screen-xl) {
+	.xl-gaps-none {
+		margin-right: 0;
+		margin-left: 0;
+
+		& [data-col] {
+			padding-right: 0;
+			padding-left: 0;
+		}
+	}
+
+	.xl-gaps-default {
+		margin-right: var(--margin-row-default, -10px);
+		margin-left: var(--margin-row-default, -10px);
+
+		& [data-col] {
+			padding-right: var(--gutter-col-default, 10px);
+			padding-left: var(--gutter-col-default, 10px);
+		}
+	}
+
+	.xl-gaps-medium {
+		margin-right: var(--margin-row-medium, -30px);
+		margin-left: var(--margin-row-medium, -30px);
+
+		& [data-col] {
+			padding-right: var(--gutter-col-medium, 30px);
+			padding-left: var(--gutter-col-medium, 30px);
+		}
+	}
+
+	.xl-gaps-big {
+		margin-right: var(--margin-row-big, -50px);
+		margin-left: var(--margin-row-big, -50px);
+
+		& [data-col] {
+			padding-right: var(--gutter-col-big, 50px);
+			padding-left: var(--gutter-col-big, 50px);
+		}
+	}
+}
+
+@media (--screen-xxl) {
+	.xxl-gaps-none {
+		margin-right: 0;
+		margin-left: 0;
+
+		& [data-col] {
+			padding-right: 0;
+			padding-left: 0;
+		}
+	}
+
+	.xxl-gaps-default {
+		margin-right: var(--margin-row-default, -10px);
+		margin-left: var(--margin-row-default, -10px);
+
+		& [data-col] {
+			padding-right: var(--gutter-col-default, 10px);
+			padding-left: var(--gutter-col-default, 10px);
+		}
+	}
+
+	.xxl-gaps-medium {
+		margin-right: var(--margin-row-medium, -30px);
+		margin-left: var(--margin-row-medium, -30px);
+
+		& [data-col] {
+			padding-right: var(--gutter-col-medium, 30px);
+			padding-left: var(--gutter-col-medium, 30px);
+		}
+	}
+
+	.xxl-gaps-big {
+		margin-right: -var(--margin-row-big, -50px);
+		margin-left: ar(--margin-row-big, -50px);
+
+		& [data-col] {
+			padding-right: ar(--gutter-col-big, 50px);
+			padding-left: ar(--gutter-col-big, 50px);
+		}
+	}
+}
+
+@media (--screen-xxxl) {
+	.xxxl-gaps-none {
+		margin-right: 0;
+		margin-left: 0;
+
+		& [data-col] {
+			padding-right: 0;
+			padding-left: 0;
+		}
+	}
+
+	.xxxl-gaps-default {
+		margin-right: var(--margin-row-default, -10px);
+		margin-left: var(--margin-row-default, -10px);
+
+		& [data-col] {
+			padding-right: var(--gutter-col-default, 10px);
+			padding-left: var(--gutter-col-default, 10px);
+		}
+	}
+
+	.xxxl-gaps-medium {
+		margin-right: var(--margin-row-medium, -30px);
+		margin-left: var(--margin-row-medium, -30px);
+
+		& [data-col] {
+			padding-right: var(--gutter-col-medium, 30px);
+			padding-left: var(--gutter-col-medium, 30px);
+		}
+	}
+
+	.xxxl-gaps-big {
+		margin-right: -5var(--margin-row-big, -50px);
+		margin-left: var(--margin-row-big, -50px);
+
+		& [data-col] {
+			padding-right: var(--gutter-col-big, 50px);
+			padding-left: var(--gutter-col-big, 50px);
+		}
+	}
 }
