@@ -1,3 +1,6 @@
+**v.0.1.24**
+- Fix NPM version.
+
 **v.0.1.23**
 - Add support for custom gap sizes.
 - New `Row` component properties:
