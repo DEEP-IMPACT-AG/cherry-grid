@@ -1,3 +1,6 @@
+**v.0.1.25**
+- Fix vanilla CSS gaps.
+
 **v.0.1.24**
 - Fix NPM version.
 
