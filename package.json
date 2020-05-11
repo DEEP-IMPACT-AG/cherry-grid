@@ -1,6 +1,6 @@
 {
 	"name": "cherry-grid",
-	"version": "0.1.26",
+	"version": "0.1.27",
 	"description": "Cherry Grid",
 	"main": "dist/cherry.js",
 	"types": "src/@types/cherry.d.ts",

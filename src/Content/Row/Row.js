@@ -40,8 +40,8 @@ export class Row extends Component {
 					className,
 				)}
 				data-row
-				justifyContent={justifyContent}
-				alignItems={alignItems}
+				justify-content={justifyContent}
+				align-items={alignItems}
 				xs-gaps={gapsXs}
 				sm-gaps={gapsSm}
 				md-gaps={gapsMd}

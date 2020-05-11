@@ -1,4 +1,7 @@
 
+**v.0.1.27**
+- Consistent naming for data attributes `justify-content` and `align-items`.
+
 **v.0.1.26**
 - Add data attributes for `justifyContent` and `alignItems`.
 
