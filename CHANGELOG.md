@@ -1,3 +1,7 @@
+
+**v.0.1.25-1**
+- Add data attributes for `justifyContent` and `alignItems`.
+
 **v.0.1.25**
 - Fix vanilla CSS gaps.
 
