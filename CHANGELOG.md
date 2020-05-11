@@ -1,5 +1,5 @@
 
-**v.0.1.25-1**
+**v.0.1.26**
 - Add data attributes for `justifyContent` and `alignItems`.
 
 **v.0.1.25**
