@@ -23,7 +23,7 @@ export class Container extends React.Component {
 					className,
 				)}
 				data-container
-				data-fuild={fluid}
+				data-fluid={fluid}
 				data-child={child}
 			>
 				{children}
