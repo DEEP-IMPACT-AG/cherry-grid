@@ -1,4 +1,7 @@
 
+**v.0.1.30**
+- Fix class names.
+
 **v.0.1.29**
 - Fix `data-fuild="true"` typo.
 
