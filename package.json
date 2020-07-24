@@ -1,6 +1,6 @@
 {
 	"name": "cherry-grid",
-	"version": "0.1.29",
+	"version": "0.1.29-1",
 	"description": "Cherry Grid",
 	"main": "dist/cherry.js",
 	"types": "src/@types/cherry.d.ts",
@@ -55,5 +55,8 @@
 	"peerDependencies": {
 		"react": "^16.13.1",
 		"react-dom": "^16.13.1"
+	},
+	"dependencies": {
+		"react": "^16.13.1"
 	}
 }
