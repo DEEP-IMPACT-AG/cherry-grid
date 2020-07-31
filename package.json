@@ -31,9 +31,9 @@
 	"author": "Luan Gjokaj (https://www.riangle.com)",
 	"license": "MIT",
 	"devDependencies": {
-		"@babel/core": "^7.10.5",
+		"@babel/core": "^7.11.0",
 		"@babel/plugin-proposal-class-properties": "^7.10.4",
-		"@babel/preset-env": "^7.10.4",
+		"@babel/preset-env": "^7.11.0",
 		"@babel/preset-react": "^7.10.4",
 		"@types/react": "^16.9.43",
 		"classnames": "^2.2.6",
